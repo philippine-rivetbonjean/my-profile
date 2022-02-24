@@ -1,0 +1,117 @@
+body {
+	background-color: #D9E4DD;
+	color: rgb(30, 30, 30);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Lora', serif;
+	color: #839B97;
+	font-weight: 350;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+p {
+	text-justify: center;
+}
+
+a:hover {
+	color: black;
+}
+
+div {
+	background: rgb(245, 245, 245);
+	margin: 80px;
+	padding: 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+	background-color: #D9E4DD;
+	box-shadow: 0px 0px 0px;
+	border: 1px solid #D9E4DD;
+}
+
+@media (max-width: 860px) {
+	.container {
+		width: 700px;
+}
+
+}
+
+#logo {
+	width: 250px;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: #839B97;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.list-inline i:hover {
+	color: black;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 40px;
+	color: #839B97;
+}
+
+.list-horizontal i:hover {
+	color: black;
+}
+
+.parent {
+	text-align: center;
+}
